@@ -1,0 +1,130 @@
+{
+  "Date": "2026-10-29",
+  "Scope": "v2 stage before item enlargement",
+  "Textures": [
+    {
+      "Path": "Content/UI/Notebook/Observations/T_Observation_01_BorderStation.uasset",
+      "SHA256": "5B7A6772AD00B3DBCF544D6F61580B0577AE6D57CE06587077BC28A069BD6082",
+      "Source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_01_BorderStation_v2.png",
+      "SourceSHA256": "a9b392e821179e1a7f512eb599d5766b4e2d7c2d6594b104e26a8d7763ff0291",
+      "Backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+    },
+    {
+      "Path": "Content/UI/Notebook/Observations/T_Observation_02_ForkTracks.uasset",
+      "SHA256": "0C06795D2866ED8ED13CB827FAD741307780BDE63A944FDF3887A6F09690178F",
+      "Source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_02_ForkTracks_v2.png",
+      "SourceSHA256": "5cdf6b825b84554bb4aeef9b0da8ee1a0953dbcbb9b8310c4a86044db446db2a",
+      "Backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+    },
+    {
+      "Path": "Content/UI/Notebook/Observations/T_Observation_03_VillageRumors.uasset",
+      "SHA256": "F45307B3C3642F0D7315F08CF6009268FF25F7E60EF428285C3AAE1D5E9812D0",
+      "Source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_03_VillageRumors_v2.png",
+      "SourceSHA256": "873d805b8b33239e0f45fcee93f6572647a230843a5d467118a76544b15603bc",
+      "Backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+    },
+    {
+      "Path": "Content/UI/Notebook/Observations/T_Observation_04_ArchivedRegister.uasset",
+      "SHA256": "7E3B048B5F1541BCA2D9F508758DECF741FB0B217A9541EADB960FCC4735999E",
+      "Source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_04_ArchivedRegister_v2.png",
+      "SourceSHA256": "c75c9e5e6411d528da0afc4330f264a1b62299d0318bb7b5879f1866b82ae533",
+      "Backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+    }
+  ],
+  "Evidence": [
+    {
+      "Copy": "NotebookObservationV2Import.log",
+      "SHA256": "FA49768AED9376430D02398DF9FAEA107EF2D6B1B56C84920DD0D5B92B3B9C5B"
+    },
+    {
+      "Copy": "NotebookObservationV2Verify.log",
+      "SHA256": "BA0C083021CEE5343E3B43E9CF7C2AA46F3996A15DF4FD4ABF1FB6674713031F"
+    },
+    {
+      "Copy": "ObservationV2_04.png",
+      "SHA256": "89CF53FA43FCC6F9F8EBC666642A8F9494840C4D0B81C9BFA3778E575F8B1686"
+    },
+    {
+      "Copy": "ObservationV2_05.png",
+      "SHA256": "1CBAEF0528444CE777D88A2033DB137351C09243A76FDD377FA8B38A22C9DA5A"
+    }
+  ],
+  "PreviewRecordsUnchanged": true,
+  "ConfigComparisonScope": "Only six NotebookPreviewQuests entries compared. Whole personal editor INI hash differed; other settings not attributed to this change.",
+  "ItemFingerprints": [
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_01_CopiedRouteMap.uasset",
+      "SHA256": "F90FFEF233ACD9EB60E22D11F282079CC3D6CF8ADB107C118B3009F4F56D45AC"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_02_Rope.uasset",
+      "SHA256": "FC1B23BC7867268C4DC246E6DF5BEB3B682E1AA6DBA2792020E2EBD8DDD1DDF4"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_03_HealingSalve.uasset",
+      "SHA256": "7FC78D3AE6807DB4BF4BC312CEECEB8C1AE557F172735349AB81A1690C220B92"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_04_TaxRegisterCopy.uasset",
+      "SHA256": "8BC99051D4C1E0921C89F4B616AF160663420592921B4DBC20DD741234A077C0"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_05_PortableInkBottle.uasset",
+      "SHA256": "A5308A744F85A07C1BA5D4783434CDE06350AC0BB74A610960E0312B6BAF2558"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_06_BorderSketchMap.uasset",
+      "SHA256": "6AAB8E4010AB5A1652A68B51DFB6AF24127CAC1BA0726C6E6C0087F5DF7D3855"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_07_ReplacementNails.uasset",
+      "SHA256": "FECA762417DB108537433492A6D06B3F6ACEA694B90E0470DB86560110D02E3F"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_08_OldSignFragment.uasset",
+      "SHA256": "B97DBF0FB799D0FE14DC0F0884C2EDA0236335A47B6F551B2EAFC9FE0F523B5E"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\T_CarriedItem_09_CharcoalDirections.uasset",
+      "SHA256": "FBC7F4D1C3C36059BC4E8804A89A8A8B6DAA05459EFC64675C3D33972DFCB638"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_01_CopiedRouteMap.png",
+      "SHA256": "85C7CE34E2906C39D66E4233947DDB1D5FEBD96B2CB6446F0E0063968B780AB5"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_02_Rope.png",
+      "SHA256": "E32291422A872A839274A8DD7331F5AB02DD5064BBDD2106FE3D815189422F2A"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_03_HealingSalve.png",
+      "SHA256": "6081402C285EFCCEC1B49ED8041FFB78B7B077906447713D17715462AFBC509D"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_04_TaxRegisterCopy.png",
+      "SHA256": "AC4324302630DFE4A45DE38B3FCA80DAE026D8961F3B9AD7C57E806792A77C1E"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_05_PortableInkBottle.png",
+      "SHA256": "ECA6979530D91344FCC6843E00C4096B1083F0CE6D7D70136C3CF50C70B81E08"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_06_BorderSketchMap.png",
+      "SHA256": "8EA7B87B4522D913157369BCD5FD414737F3A0689BF12071D5EAFD4D69E0FAFE"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_07_ReplacementNails.png",
+      "SHA256": "04552D51074AEEB1368868F944632805F7E1314465F4345EF715DE59B9D163F4"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_08_OldSignFragment.png",
+      "SHA256": "EA83E47956DB612D7FE434BA19575A7CFF152D2B61107BB9CCC048A321A085EB"
+    },
+    {
+      "Path": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_09_CharcoalDirections.png",
+      "SHA256": "C30A31285B602DE8430664602CC2CCDF562B0914F47E344966214336C1848832"
+    }
+  ],
+  "RolandScreenshotUnchanged": true,
+  "Tests": "12/12 success; exit 0"
+}

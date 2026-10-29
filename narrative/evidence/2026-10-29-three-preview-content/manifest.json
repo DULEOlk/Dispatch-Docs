@@ -1,0 +1,117 @@
+{
+  "Date": "2026-10-29 Asia/Shanghai",
+  "HEAD": "1437c4b2eb5924a1c696a84885d4ecab35a87136",
+  "Scope": "Development runtime: 12 tests. Three isolated notebook samples; not formal DA or inventory/report transactions.",
+  "Evidence": [
+    {
+      "Source": "Saved/Logs/NotebookSuppliesFitFinalBuild.log",
+      "Copy": "NotebookSuppliesFitFinalBuild.log",
+      "SHA256": "1D051AF02E342C923F108EC699826A7D3CBE8F88E39D791DE76E9B5D9446A446"
+    },
+    {
+      "Source": "Saved/Logs/NotebookSuppliesFitFinalVerify.log",
+      "Copy": "NotebookSuppliesFitFinalVerify.log",
+      "SHA256": "FC82EE9D6348E6D3F213B73309AD552B73B8402E53FEF628C4F94C9BD05D7FB5"
+    },
+    {
+      "Source": "Saved/Logs/NotebookSuppliesRedVerify.log",
+      "Copy": "NotebookSuppliesRedVerify.log",
+      "SHA256": "C843A4B350D770205D4BAE426F5FDF4759FE6DEA30D13FB4BBE07854100DCF40"
+    },
+    {
+      "Source": "Saved/Logs/NotebookSuppliesFinalVerify.log",
+      "Copy": "NotebookSuppliesFinalVerify.log",
+      "SHA256": "BBBAE9A591D45AAA4FEE081D7D48B42CFBB63AB3634C77C47B130EABD1FC7474"
+    },
+    {
+      "Source": "Saved/Logs/NotebookSuppliesFitVerify.log",
+      "Copy": "NotebookSuppliesFitVerify.log",
+      "SHA256": "0BCFDBC469D78FEA0C03B45C0124603C155A01B6A23EEBE77FA2530250749D55"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/SuppliesFinal_04.png",
+      "Copy": "SuppliesFinal_04.png",
+      "SHA256": "3EB4E184094D9D0A2963025C91BA1AF3A9401091B26528A635F7A667DC3591B3"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/SuppliesFinal_05.png",
+      "Copy": "SuppliesFinal_05.png",
+      "SHA256": "2E4244D89D9CBEF2D46BF948E3CE515B094BF8F28049E7CBA75BD3141B8290CE"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/SuppliesFinal_06.png",
+      "Copy": "SuppliesFinal_06.png",
+      "SHA256": "AE2E474D71609E87831571B4C8E61A0774E3ACD92DA800D7CEB494AC2B2BE29E"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/SuppliesReportBeforeFit.png",
+      "Copy": "SuppliesReportBeforeFit.png",
+      "SHA256": "D625B266F26EAB8747D5A8384592EE87424B82B4063763C96FDCA54A702B7DAE"
+    },
+    {
+      "Source": "Saved/Logs/NotebookSuppliesDebugBuild.log",
+      "Copy": "NotebookSuppliesDebugBuild.log",
+      "SHA256": "002D0AB47A3F15DA5853BA215152BBAFED6B2EA5C64D12C54B50CD6D05EBBF39"
+    }
+  ],
+  "Inputs": [
+    {
+      "Path": "Source/Dispatch/Public/Widget/NotebookCommissionData.h",
+      "SHA256": "3F64752C99448BA54DA47A35BCC96A9464724A915DB59D6F22032283C95546C6"
+    },
+    {
+      "Path": "Source/Dispatch/Private/Widget/NotebookCommissionData.cpp",
+      "SHA256": "447CE64E853E8923E2A368ACB44BCE0E49C3EA0B148095780F1865ADF323843E"
+    },
+    {
+      "Path": "Source/Dispatch/Public/Widget/CommissionDispatchPageBase.h",
+      "SHA256": "72FF702578F09172DC12CB6E202FFA877F01119B68D517A01AD2129FF047113B"
+    },
+    {
+      "Path": "Source/Dispatch/Private/Widget/CommissionDispatchPageBase.cpp",
+      "SHA256": "A2653AAF2A2B0406E7AAF038BB190684AD84D68299818E6945F4981B77825E49"
+    },
+    {
+      "Path": "Source/Dispatch/Private/Widget/NotebookPageTextLayout.h",
+      "SHA256": "EB24B68CF534A8543F03C9930D8AE9842BEBC65EA2C1B079854B466C2C4D9873"
+    },
+    {
+      "Path": "Source/DispatchEditor/Public/StoryWorkspace/StoryNotebookPreviewData.h",
+      "SHA256": "AB7F6BF4E30AAED57BF8FF5CD00F4925C7FFCC19AA6CC31EEFBAD347DDC92257"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/StoryWorkspace/StoryUIPreviewRequest.cpp",
+      "SHA256": "6F95BF8CB003F34B66D63C58F31AF3005C227657AEAEACF6C702F49BDACEF3CC"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/Tests/NotebookAssociationTests.cpp",
+      "SHA256": "32015CA2BAF31BD42ECF024048F8A9460202F74235791282F5C63D4B800D860B"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/Tests/NotebookAuthoredContentTests.cpp",
+      "SHA256": "F9F7C9C305464254425FD12C0603A3ADB76AD0ED237E6233C6EA53A035E664C2"
+    },
+    {
+      "Path": "Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini",
+      "SHA256": "94015268ED40F9CC5A756D597632B2492FEF84E8A669CA260B313AF97E3090C9"
+    },
+    {
+      "Path": "docs/narrative/story/batches/2026-10-29-notebook-three-preview.json",
+      "SHA256": "145AF9EADF97000AE6C375A3989820026C35BBC4C0E10AB632A5FAF0979E1BBA"
+    }
+  ],
+  "Tests": [
+    "[2026.10.29-03.00.50:579][601]LogAutomationController: Display: Test Completed. Result={成功} Name={InProgressPresentation} Path={Dispatch.Widget.CommissionDispatch.InProgressPresentation}",
+    "[2026.10.29-03.00.50:731][603]LogAutomationController: Display: Test Completed. Result={成功} Name={ObservationScrollbarInteraction} Path={Dispatch.Widget.CommissionDispatch.ObservationScrollbarInteraction}",
+    "[2026.10.29-03.00.50:763][605]LogAutomationController: Display: Test Completed. Result={成功} Name={AssessmentPreviewIsolation} Path={Dispatch.Widget.Notebook.Association.AssessmentPreviewIsolation}",
+    "[2026.10.29-03.00.50:796][607]LogAutomationController: Display: Test Completed. Result={成功} Name={Entry} Path={Dispatch.Widget.Notebook.Association.Entry}",
+    "[2026.10.29-03.00.50:830][609]LogAutomationController: Display: Test Completed. Result={成功} Name={Instance} Path={Dispatch.Widget.Notebook.Association.Instance}",
+    "[2026.10.29-03.00.51:133][611]LogAutomationController: Display: Test Completed. Result={成功} Name={LiveRefresh} Path={Dispatch.Widget.Notebook.Association.LiveRefresh}",
+    "[2026.10.29-03.00.51:182][614]LogAutomationController: Display: Test Completed. Result={成功} Name={PreviewSuppliesAndReport} Path={Dispatch.Widget.Notebook.Association.PreviewSuppliesAndReport}",
+    "[2026.10.29-03.00.51:232][617]LogAutomationController: Display: Test Completed. Result={成功} Name={ReadSources} Path={Dispatch.Widget.Notebook.Association.ReadSources}",
+    "[2026.10.29-03.00.51:414][619]LogAutomationController: Display: Test Completed. Result={成功} Name={Widget} Path={Dispatch.Widget.Notebook.Association.Widget}",
+    "[2026.10.29-03.00.52:687][621]LogAutomationController: Display: Test Completed. Result={成功} Name={RenderSavedContent} Path={Dispatch.Widget.Notebook.AuthoredContent.RenderSavedContent}",
+    "[2026.10.29-03.00.52:722][623]LogAutomationController: Display: Test Completed. Result={成功} Name={ReviewedReport} Path={Dispatch.Widget.Notebook.AuthoredContent.ReviewedReport}",
+    "[2026.10.29-03.00.52:764][626]LogAutomationController: Display: Test Completed. Result={成功} Name={SixSavedDefinitions} Path={Dispatch.Widget.Notebook.AuthoredContent.SixSavedDefinitions}"
+  ]
+}

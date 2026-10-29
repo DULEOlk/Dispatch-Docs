@@ -1,0 +1,133 @@
+{
+  "Date": "2026-10-29",
+  "HEAD": "1437c4b2eb5924a1c696a84885d4ecab35a87136",
+  "Scope": "13 new textures and preview references; production runtime code unchanged. Development 12 targeted tests, no new DebugGame build needed for data-only integration.",
+  "ZipSHA256": "9F21C2C116A92F99CF561C17096267C4F3483F04BD875ADC536BE018E4BF71C8",
+  "ConfigSHA256": "02318075BF5FEE9A62FEDEC82E02357108584AA8C7C9AC7601BBFF12113DD23D",
+  "Textures": [
+    {
+      "Asset": "Content/UI/Notebook/Observations/T_Observation_01_BorderStation.uasset",
+      "SHA256": "3D98E7D98C4F9B9F319CCD93D02A9CFE776801075078BC7461CA2BB0D9FB1160",
+      "SourcePNG": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_01_BorderStation.png",
+      "SourceSHA256": "356e84cc7872db9c7099e44b2b7de001dcb4109c5ad13674216bf4c2029b8dbf"
+    },
+    {
+      "Asset": "Content/UI/Notebook/Observations/T_Observation_02_ForkTracks.uasset",
+      "SHA256": "2298137697177A55846933BB3EE4FE002F500EA915E46041C4DB6EC346CB1AD1",
+      "SourcePNG": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_02_ForkTracks.png",
+      "SourceSHA256": "efb0a891aa74390b08fd579c8e144dfa3b4197291e40a003a8ee36c8fc681b6e"
+    },
+    {
+      "Asset": "Content/UI/Notebook/Observations/T_Observation_03_VillageRumors.uasset",
+      "SHA256": "B2D89F20E18637917DAE8253BB6A1DB29B22827C23AA2D80DE1E4CB0DA8C8107",
+      "SourcePNG": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_03_VillageRumors.png",
+      "SourceSHA256": "27b8c4a77b5704f580b1c751a95dfe4de100bbe5c68e542df9cec709ebecf457"
+    },
+    {
+      "Asset": "Content/UI/Notebook/Observations/T_Observation_04_ArchivedRegister.uasset",
+      "SHA256": "3641535E380FBF11CFAD5A33E7C9C3B4174FE94974A2A193BF0E5CA1B78F02E3",
+      "SourcePNG": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_04_ArchivedRegister.png",
+      "SourceSHA256": "cce5289765e550a967463cc8e0089cf36ac9d2cfadefd1cb8b0c04dcb9e3cee1"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_01_CopiedRouteMap.uasset",
+      "SHA256": "F90FFEF233ACD9EB60E22D11F282079CC3D6CF8ADB107C118B3009F4F56D45AC",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_01_CopiedRouteMap.png",
+      "SourceSHA256": "85c7ce34e2906c39d66e4233947ddb1d5febd96b2cb6446f0e0063968b780ab5"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_02_Rope.uasset",
+      "SHA256": "FC1B23BC7867268C4DC246E6DF5BEB3B682E1AA6DBA2792020E2EBD8DDD1DDF4",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_02_Rope.png",
+      "SourceSHA256": "e32291422a872a839274a8dd7331f5ab02dd5064bbdd2106fe3d815189422f2a"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_03_HealingSalve.uasset",
+      "SHA256": "7FC78D3AE6807DB4BF4BC312CEECEB8C1AE557F172735349AB81A1690C220B92",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_03_HealingSalve.png",
+      "SourceSHA256": "6081402c285efccec1b49ed8041ffb78b7b077906447713d17715462afbc509d"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_04_TaxRegisterCopy.uasset",
+      "SHA256": "8BC99051D4C1E0921C89F4B616AF160663420592921B4DBC20DD741234A077C0",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_04_TaxRegisterCopy.png",
+      "SourceSHA256": "ac4324302630dfe4a45de38b3fca80dae026d8961f3b9ad7c57e806792a77c1e"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_05_PortableInkBottle.uasset",
+      "SHA256": "A5308A744F85A07C1BA5D4783434CDE06350AC0BB74A610960E0312B6BAF2558",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_05_PortableInkBottle.png",
+      "SourceSHA256": "eca6979530d91344fcc6843e00c4096b1083f0ce6d7d70136c3cf50c70b81e08"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_06_BorderSketchMap.uasset",
+      "SHA256": "6AAB8E4010AB5A1652A68B51DFB6AF24127CAC1BA0726C6E6C0087F5DF7D3855",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_06_BorderSketchMap.png",
+      "SourceSHA256": "8ea7b87b4522d913157369bcd5fd414737f3a0689bf12071d5eafd4d69e0fafe"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_07_ReplacementNails.uasset",
+      "SHA256": "FECA762417DB108537433492A6D06B3F6ACEA694B90E0470DB86560110D02E3F",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_07_ReplacementNails.png",
+      "SourceSHA256": "04552d51074aeeb1368868f944632805f7e1314465f4345ef715de59b9d163f4"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_08_OldSignFragment.uasset",
+      "SHA256": "B97DBF0FB799D0FE14DC0F0884C2EDA0236335A47B6F551B2EAFC9FE0F523B5E",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_08_OldSignFragment.png",
+      "SourceSHA256": "ea83e47956db612d7fe434ba19575a7cff152d2b61107bb9ccc048a321a085eb"
+    },
+    {
+      "Asset": "Content/UI/Notebook/CarriedItems/T_CarriedItem_09_CharcoalDirections.uasset",
+      "SHA256": "FBC7F4D1C3C36059BC4E8804A89A8A8B6DAA05459EFC64675C3D33972DFCB638",
+      "SourcePNG": "Content\\UI\\Notebook\\CarriedItems\\SourcePNG\\T_CarriedItem_09_CharcoalDirections.png",
+      "SourceSHA256": "c30a31285b602de8430664602cc2ccdf562b0914f47e344966214336c1848832"
+    }
+  ],
+  "Evidence": [
+    {
+      "Copy": "NotebookSuppliedArtImport.log",
+      "Source": "Saved/Logs/NotebookSuppliedArtImport.log",
+      "SHA256": "7F712B7CF486F96D146838EC3F7437168552FABA8A6C42F1BDC050B3B7FDD006"
+    },
+    {
+      "Copy": "NotebookIllustrationsBuild.log",
+      "Source": "Saved/Logs/NotebookIllustrationsBuild.log",
+      "SHA256": "4474DB415161B5F15B773522E619DFC140F8D65653EA40263B5E96B0EDC61BAB"
+    },
+    {
+      "Copy": "NotebookIllustrationsVerify.log",
+      "Source": "Saved/Logs/NotebookIllustrationsVerify.log",
+      "SHA256": "562A4FC119C0D8A9B090EF02FBE2DCFDE7D0590D7DD680DBCC8EFE64EF739C3F"
+    },
+    {
+      "Copy": "Illustrated_04.png",
+      "Source": "Saved/Automation/NotebookSixContent/Illustrated_04.png",
+      "SHA256": "0DE7A2BA0F71F4FB89BF9083EDBCDE8A74BE20846DC2F8443807DA8EA0F49E54"
+    },
+    {
+      "Copy": "Illustrated_05.png",
+      "Source": "Saved/Automation/NotebookSixContent/Illustrated_05.png",
+      "SHA256": "6A4718AA80CC37891AD47B8E466001D18B02121DE3EA3A6783F453703A451237"
+    },
+    {
+      "Copy": "Illustrated_06.png",
+      "Source": "Saved/Automation/NotebookSixContent/Illustrated_06.png",
+      "SHA256": "B760BB05F9BF6C55E4947AACC6263CE05009A3E60464BBFE1791D4017AFF14D6"
+    }
+  ],
+  "Tests": [
+    "[2026.10.29-04.19.01:095][613]LogAutomationController: Display: Test Completed. Result={成功} Name={InProgressPresentation} Path={Dispatch.Widget.CommissionDispatch.InProgressPresentation}",
+    "[2026.10.29-04.19.01:227][616]LogAutomationController: Display: Test Completed. Result={成功} Name={ObservationScrollbarInteraction} Path={Dispatch.Widget.CommissionDispatch.ObservationScrollbarInteraction}",
+    "[2026.10.29-04.19.01:268][618]LogAutomationController: Display: Test Completed. Result={成功} Name={AssessmentPreviewIsolation} Path={Dispatch.Widget.Notebook.Association.AssessmentPreviewIsolation}",
+    "[2026.10.29-04.19.01:300][620]LogAutomationController: Display: Test Completed. Result={成功} Name={Entry} Path={Dispatch.Widget.Notebook.Association.Entry}",
+    "[2026.10.29-04.19.01:344][623]LogAutomationController: Display: Test Completed. Result={成功} Name={Instance} Path={Dispatch.Widget.Notebook.Association.Instance}",
+    "[2026.10.29-04.19.02:020][625]LogAutomationController: Display: Test Completed. Result={成功} Name={LiveRefresh} Path={Dispatch.Widget.Notebook.Association.LiveRefresh}",
+    "[2026.10.29-04.19.02:075][627]LogAutomationController: Display: Test Completed. Result={成功} Name={PreviewSuppliesAndReport} Path={Dispatch.Widget.Notebook.Association.PreviewSuppliesAndReport}",
+    "[2026.10.29-04.19.02:123][629]LogAutomationController: Display: Test Completed. Result={成功} Name={ReadSources} Path={Dispatch.Widget.Notebook.Association.ReadSources}",
+    "[2026.10.29-04.19.02:369][631]LogAutomationController: Display: Test Completed. Result={成功} Name={Widget} Path={Dispatch.Widget.Notebook.Association.Widget}",
+    "[2026.10.29-04.19.04:233][633]LogAutomationController: Display: Test Completed. Result={成功} Name={RenderSavedContent} Path={Dispatch.Widget.Notebook.AuthoredContent.RenderSavedContent}",
+    "[2026.10.29-04.19.04:294][635]LogAutomationController: Display: Test Completed. Result={成功} Name={ReviewedReport} Path={Dispatch.Widget.Notebook.AuthoredContent.ReviewedReport}",
+    "[2026.10.29-04.19.04:323][637]LogAutomationController: Display: Test Completed. Result={成功} Name={SixSavedDefinitions} Path={Dispatch.Widget.Notebook.AuthoredContent.SixSavedDefinitions}"
+  ]
+}

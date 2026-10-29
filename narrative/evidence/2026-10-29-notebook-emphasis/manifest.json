@@ -1,0 +1,50 @@
+[
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\NotebookEmphasisBuild.log",
+    "sha256": "d563e05b3ea44718c2fbfd0a336c5856b988780974c1cae09675844c1bed10c7"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\NotebookEmphasisVerify.log",
+    "sha256": "f95712f4646e1d13d5c41a52ca5987526881b19a2dccc5784f5cafd018ada77b"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\NotebookPreviewInputs.ini",
+    "sha256": "a7667df246fd43b9563071492b2f0d0eec807716251c6512df617c7bff545168"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\Preview_04.png",
+    "sha256": "743dd7b25d27f2ab42e86d15672c850e5ce2046a1277845c799b1046c58db846"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\Preview_05.png",
+    "sha256": "917873e58571c8fddded1fabba75d4b39bd95269fb3fdd07a8f7016928a574cf"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\Preview_06.png",
+    "sha256": "6eff972e3bf8a24c3515133c9836283572fa7dda335dd3e331d86412ea0d145f"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\README.md",
+    "sha256": "7174f3394f96f742bc7918a64c9c6c64bf277a18fb2683ce4e5a832099973ac1"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\RolandRedDetail.png",
+    "sha256": "4efc3f0ece897d2349a73c29ef833d9eca771bb81969820c22691d0ea8089e8a"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-notebook-emphasis\\VeraYellowDetail.png",
+    "sha256": "1e15ea4e192143b442ac21635d168f04de6429475a24dd5a77cc2e2ea766e6f8"
+  },
+  {
+    "path": "Source\\DispatchEditor\\Private\\Tests\\NotebookAuthoredContentTests.cpp",
+    "sha256": "76ed18f8856e1acefc2c345dff7fb1d499e2df043f27778117142af31de0fea1"
+  },
+  {
+    "path": "Saved\\Config\\WindowsEditor\\EditorPerProjectUserSettings.ini",
+    "sha256": "cb0f24b6d5f72017cb34ba9bd14798e0f1be270cc2558dc80b76440f803b9042"
+  },
+  {
+    "path": "docs\\narrative\\story\\batches\\2026-10-29-notebook-three-preview.json",
+    "sha256": "cea0770ecf07bb1ad211f5f25ca92064ad5bc312d39623f942505afa5309145e"
+  }
+]

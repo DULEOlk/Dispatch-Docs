@@ -1,0 +1,72 @@
+{
+  "scope": "仅派遣预览独立配置；三卡引用已有委托4/5/6、罗兰NPC，九物品供每卡选择；不关联记录本运行态，不写正式DA/蓝图/存档。",
+  "commissions": [
+    "04_MedicineEscort",
+    "05_MissingVillagers",
+    "06_RoadMarkers"
+  ],
+  "npc": "/Game/Developers/NotebookPreview/NPC/DA_NPC_003_RolandGraeve.DA_NPC_003_RolandGraeve",
+  "assessment_sample": "Unsuitable",
+  "items": [
+    {
+      "id": "Preview.SharedItem.01",
+      "name": "旧路线抄图",
+      "description": "标注主路、旧采石道和补给村位置，便于核对偏离路线。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_01_CopiedRouteMap.T_CarriedItem_01_CopiedRouteMap"
+    },
+    {
+      "id": "Preview.SharedItem.02",
+      "name": "麻绳",
+      "description": "用于捆扎散落货箱，也能临时固定翻倒车板。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_02_Rope.T_CarriedItem_02_Rope"
+    },
+    {
+      "id": "Preview.SharedItem.03",
+      "name": "伤药",
+      "description": "维拉个人携带，用于野外追踪时处理小伤。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_03_HealingSalve.T_CarriedItem_03_HealingSalve"
+    },
+    {
+      "id": "Preview.SharedItem.04",
+      "name": "旧税册摹页",
+      "description": "临时誊抄的部分页面，可对照被涂抹区域前后的户数变化。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_04_TaxRegisterCopy.T_CarriedItem_04_TaxRegisterCopy"
+    },
+    {
+      "id": "Preview.SharedItem.05",
+      "name": "便携墨瓶",
+      "description": "用于现场比对字迹、颜色与旧档墨痕差异。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_05_PortableInkBottle.T_CarriedItem_05_PortableInkBottle"
+    },
+    {
+      "id": "Preview.SharedItem.06",
+      "name": "边境草图地图",
+      "description": "标注旧道、河流和几处仍可辨认的地界记号。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_06_BorderSketchMap.T_CarriedItem_06_BorderSketchMap"
+    },
+    {
+      "id": "Preview.SharedItem.07",
+      "name": "替换木钉",
+      "description": "剩余少量，说明现场确实做过修复。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_07_ReplacementNails.T_CarriedItem_07_ReplacementNails"
+    },
+    {
+      "id": "Preview.SharedItem.08",
+      "name": "旧路牌碎片",
+      "description": "从拆下的旧牌上带回，表面留有被刮削的痕迹。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_08_OldSignFragment.T_CarriedItem_08_OldSignFragment"
+    },
+    {
+      "id": "Preview.SharedItem.09",
+      "name": "炭笔方向草记",
+      "description": "罗兰现场记录下通往村镇、王都与旧驿站的实际方向。",
+      "icon": "/Game/UI/Notebook/CarriedItems/T_CarriedItem_09_CharcoalDirections.T_CarriedItem_09_CharcoalDirections"
+    }
+  ],
+  "quantity_note": "AvailableCount=1只作可选显示样例，不是正式库存。",
+  "preview_reactions": {
+    "04_MedicineEscort": "三辆货车，连人带货一起失踪？要么有人故意避开关卡，要么根本没走那条路。光凭商会的一面之词，可找不回他们。",
+    "05_MissingVillagers": "地图上的村子被涂掉了，税册里却还留着记录？村庄可以荒废，道路和地基总不会一起消失。与其猜是谁动了墨，不如先去看看那里还剩下什么。",
+    "06_RoadMarkers": "修块路牌没什么难的。麻烦的是旧路和新路交错，外地商旅很容易认错方向。动手之前最好问清楚，原来的路牌究竟指向哪里。"
+  }
+}

@@ -1,5 +1,22 @@
 # 委托公告板与线索发现体验记录
 
+<a id="dispatch-preview-data-current"></a>
+## 派遣预览数据当前确认（2026-10-29）
+
+用户追加出发反应（2026-10-29，已实现并验证、用户已确认）：三份委托分别使用用户提供的三句原文，唯一内容见[文本批次preview_reactions](../story/batches/2026-10-29-dispatch-preview-reuse.json)。Entry.PreviewReactionText非空只覆盖编辑器瞬态委托；正式DA/记录本不写。反应文字在原框动态缩字号，不删内容、不动装饰。[三份最新卷宗与台词实图](../evidence/2026-10-29-dispatch-reaction/README.md)已替代下方初次填数据时的空白反应图作为当前工作区入口；用户本次已确认，作为当前局部验收参考。Development/DebugGame构建及最终5项验证通过。
+
+
+用户本轮要求：三份委托使用记录本后三条——消失的商队、被墨水涂掉的村庄、修复北路路标；NPC统一罗兰·格雷夫。每份委托共用九件可选交付物，图名沿用现有九物品、说明沿用用户已提供内容。两个预览按钮独立，仅共享测试引用，不从记录本复制运行态，不改正式委托/NPC/物品DA、背包、结算或存档。
+
+- 当前输入：本机CommissionPreviewAssets三行；[唯一数据批次](../story/batches/2026-10-29-dispatch-preview-reuse.json)保存九名称/简介/图引用。AvailableCount=1只是预览可选样例。
+- NPC四项：罗兰资产的受伤/警惕/陌生；身体难以胜任由本派遣条目独立模拟开关提供，不按健康计算，不依赖记录本按钮。
+- 当前工作区：配置、独立身体模拟及原框动态字号已实现。长卡名单行缩放、罗兰简介完整保留；位置/装饰保持。Development与DebugGame构建成功，最终5项验证通过（含记录本实际渲染）；[当前实际图/证据](../evidence/2026-10-29-dispatch-preview-reuse/README.md)，用户本次已确认局部效果。
+- 当前布局参考：[本轮用户选择页](../evidence/2026-10-29-dispatch-preview-reuse/Before_Selection.png)、[卷宗](../evidence/2026-10-29-dispatch-preview-reuse/Before_Dossier.png)、[交付表](../evidence/2026-10-29-dispatch-preview-reuse/Before_Delivery.png)。用途仅布局；图中旧三委托/测试执行人/四件物品的数据已被本次目标替代，不可按旧图恢复。
+- 当前实际图主入口：[三卡](../evidence/2026-10-29-dispatch-preview-reuse/Selection.png)、[罗兰卷宗](../evidence/2026-10-29-dispatch-reaction/Dossier_1.png)、[九物品清单](../evidence/2026-10-29-dispatch-preview-reuse/Delivery_First.png)。这是用户本次确认的局部预览版本。
+- 当前局部验收基线已按用户本次“可以了”建立；当前验收证据与差距见[本轮交接](../handoffs/2026-10-29-dispatch-preview-reuse.md)。记录本黄底/红线验收基线保持，不由本轮派遣数据修改覆盖。
+
+以下日期段落为此前阶段记录；其中测试数据与未做状态不能覆盖本节当前确认。
+
 ## 2026-10-09 派遣选择页当前交互与装饰
 
 用户确认：点击委托纸卡直接打开对应派遣卷宗；从卷宗返回时保留选择，右侧“查看派遣卷宗”文字或三角箭头可重开，左侧“返回”在独立预览中退出。用户自带的顶部整条纹样居中，底部三角箭头可交互、长线仅装饰。实现与自动验证已更新，原生 PIE 视觉/手感尚待用户验收；正式游戏入口左箭头去向未在本步接线。详情与证据见 [UI-DISPATCH-001 当前交接](../handoffs/2026-10-08-ui-dispatch-001-asset-organization.md)，下方早期原型段落保留为历史，不再代表现行按钮语义。

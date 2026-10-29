@@ -1,0 +1,118 @@
+[
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\BeforeFit_Dossier.png",
+    "sha256": "ced6127fd0d5f46544b1eb066bb6b748e2d03ee93c9248c422a2eeacb5cab336"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\BeforeFit_Selection.png",
+    "sha256": "ccdd0edd03939e6854a55704035a7635c29580e7e309bcb382de8c84479ac73c"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Before_Delivery.png",
+    "sha256": "aa0c78003609839fd351461dfaa927c78e023fef282cdb266941c029c07aeb73"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Before_Dossier.png",
+    "sha256": "ee4dfafda7fc43510a1b4fa181a1b75510d39f487bb1b7f9ea39417831538a59"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Before_Selection.png",
+    "sha256": "39c14b25f2efd68965b868462ae27177f848cb86a467ed803385af9912578ea9"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Delivery_First.png",
+    "sha256": "ec13d5c54321b5b4164ab163308d695a9464ac49f1d049716c23e19c63f5fa83"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Delivery_Last.png",
+    "sha256": "a8defac13ccf038c071c5d56b6a530f02a98ca12e60913275f362d16e1b2eb33"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchPreviewInputs.ini",
+    "sha256": "c2880553ba29a38daf262d1718a7efc173e7a583a9a995327af3376af497b2ee"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchReuseDebugBuild.log",
+    "sha256": "fefe22521b348d12e9b98d3fea8fe7db103b002d2a6ca609110169158c1dfccd"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchReuseFit2Build.log",
+    "sha256": "ee9954a07462c2c4393ae7979e2054cfcf9338d74a6d996586604292e3faaca5"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchReuseFitVerify.log",
+    "sha256": "4a2cf6d877548b688dccc6d2ed1f8c448fb147585d03849c83f32f4e2ebaac9d"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchReuseGreen2Verify.log",
+    "sha256": "0842f4d97e73641ed63ada90eb9c2a16598c7c109e8a49100acb12924f1c253a"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchReuseGreen3Build.log",
+    "sha256": "0482771883c8beb1f1fe1d9d8c1819aea14fbe90f4c90c753e427f58be3f3dfb"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchReuseGreenVerify.log",
+    "sha256": "2e240f7a6b5f9f96c589ca4016c15830b0c4ad31771be6be6b426b45e5bdac4c"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\DispatchReuseRedVerify.log",
+    "sha256": "9fdd1d795c921e9bbb29879ac8959808a8608729816dea2c2765be6761d35319"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Dossier_1.png",
+    "sha256": "8eca4bc55218309adc81e32e4c9df21107dc0d317138416496fb1960ca70c0b6"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Dossier_2.png",
+    "sha256": "90a33c8b4d759f567112b3b71580f848230cd5a73dc1e8b799f8d9646981c16b"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Dossier_3.png",
+    "sha256": "f98ba6a7ea63de4ff6f445b6f5e3d616aada54f095a4c3f1a0974c07fa4949ab"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\README.md",
+    "sha256": "6d4594d6ec3a2709aa8544e6a7c986b1d8282cccdf97b4dde1adadc89fbf8d18"
+  },
+  {
+    "path": "docs\\narrative\\evidence\\2026-10-29-dispatch-preview-reuse\\Selection.png",
+    "sha256": "55efb3c6e9d14511a8354933afebb24c117d31b6f701a31a30d45a6291d1930f"
+  },
+  {
+    "path": "Source\\DispatchEditor\\Public\\StoryWorkspace\\StoryCommissionPreviewSession.h",
+    "sha256": "ea499019fa5bfca0fadd6c802db38eeebc600c2aaec32b67934def3fdb5be773"
+  },
+  {
+    "path": "Source\\DispatchEditor\\Private\\StoryWorkspace\\StoryCommissionPreviewSession.cpp",
+    "sha256": "8eb0e951501714a2f45d24cf0c796a979db484202b7f62a2929d4007387c656d"
+  },
+  {
+    "path": "Source\\DispatchEditor\\Private\\Tests\\CommissionPreviewReuseTests.cpp",
+    "sha256": "3dba5037d4aed8b84ca2c4b7ba37de3343d78cc29360e2ee2d5da11198d47cd3"
+  },
+  {
+    "path": "Source\\Dispatch\\Public\\Widget\\CommissionCardWidgetBase.h",
+    "sha256": "eb2218b2741e85714e09336fe7820a073034a5f01df4ea8963fd450065aba0c1"
+  },
+  {
+    "path": "Source\\Dispatch\\Private\\Widget\\CommissionCardWidgetBase.cpp",
+    "sha256": "c884c8086f766ae85124340617d6afd3a2156dca85da04109177eb4a93b95d1e"
+  },
+  {
+    "path": "Source\\Dispatch\\Public\\Widget\\CommissionDispatchPageBase.h",
+    "sha256": "d99effce095d5d5eb2cdb9136be55323cf074ae6c7950a368ce07b44aa302bbe"
+  },
+  {
+    "path": "Source\\Dispatch\\Private\\Widget\\CommissionDispatchPageBase.cpp",
+    "sha256": "1ed5c650ddfd65daa4e8ad6fe9399902865615734db5c3f6b88d6e76d7fb2c2f"
+  },
+  {
+    "path": "Saved\\Config\\WindowsEditor\\EditorPerProjectUserSettings.ini",
+    "sha256": "409717290a16371450c3bb80e1d66acca85e2bdf0ccdac9ec368caf88ba58e57"
+  },
+  {
+    "path": "docs\\narrative\\story\\batches\\2026-10-29-dispatch-preview-reuse.json",
+    "sha256": "49e1b0fbfa5eb8ca5f4bdff415572211951b7fcbb31737a76c4e46b49742242e"
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "Date": "2026-10-29",
+  "HEAD": "1437c4b2eb5924a1c696a84885d4ecab35a87136",
+  "Scope": "Development runtime 12 tests; Development/DebugGame build passed. User-authored Completed asset read only.",
+  "Evidence": [
+    {
+      "Source": "Saved/Logs/NotebookLayoutReviewGreenBuild.log",
+      "Copy": "NotebookLayoutReviewGreenBuild.log",
+      "SHA256": "5EBC50F804C44827309E6BC1C339B949626933BEC82148ED1EBEEEAA7A0E3D0B"
+    },
+    {
+      "Source": "Saved/Logs/NotebookLayoutReviewGreenVerify.log",
+      "Copy": "NotebookLayoutReviewGreenVerify.log",
+      "SHA256": "3E5113F578931A74C55793D0B30C9F36F27DDF300C3588F806D7FB6673131BAF"
+    },
+    {
+      "Source": "Saved/Logs/NotebookLayoutReviewRedVerify.log",
+      "Copy": "NotebookLayoutReviewRedVerify.log",
+      "SHA256": "4E30FA924EDAD29BD6115AE4AD24F3BD8E985DC7E1B20C7C5D98CFD16FFA381A"
+    },
+    {
+      "Source": "Saved/Logs/NotebookLayoutReviewDebugBuild.log",
+      "Copy": "NotebookLayoutReviewDebugBuild.log",
+      "SHA256": "B2CA938688A5DE6A91DD8097608B45D1201B75ED7343C97DD72EE156604A6DFC"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/LayoutReview_05.png",
+      "Copy": "LayoutReview_05.png",
+      "SHA256": "E8C81A5B906072806716E0F74CC2E60D0F25B14611997CDE9CFE10E549690D89"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/LayoutReview_06.png",
+      "Copy": "LayoutReview_06.png",
+      "SHA256": "1FC9BB584136C660D98929B434CF3FE00DBF9C86DC4C17A7AC44090F72BED6BE"
+    }
+  ],
+  "Inputs": [
+    {
+      "Path": "Source/Dispatch/Private/Widget/CommissionDispatchPageBase.cpp",
+      "SHA256": "225B71D856BF3760926D8D0371477343A816E82660B315D73B1F2477A6863EDE"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/Tests/InProgressPresentationTests.cpp",
+      "SHA256": "F83D640BD673222E8F5E4DDF49A090D551D5D2B65064C110C8A8E2C00833DCF5"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/Tests/NotebookAuthoredContentTests.cpp",
+      "SHA256": "31005333AFE1ABA23D32CF3DC8A607E415C71DD399292704BFB5D12CB5BE32BC"
+    },
+    {
+      "Path": "Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini",
+      "SHA256": "053656497D431156F887DD3B3B7542DC56660EA33C20780E70ED04E5754D30DF"
+    },
+    {
+      "Path": "docs/narrative/story/batches/2026-10-29-notebook-three-preview.json",
+      "SHA256": "1396EFA378FA7515EBB21954E2EDCC477B9B019C74B149EA4460C51A76F3D4D7"
+    },
+    {
+      "Path": "Content/BluePrints/Widget/Menu/Quest/DispatchPages/WBP_DispatchPage_Completed.uasset",
+      "SHA256": "FDF63420CEBEC7B833B9AD3FB675247563168C46C256641E8469F980672F5333"
+    }
+  ],
+  "Tests": [
+    "[2026.10.29-03.26.46:263][605]LogAutomationController: Display: Test Completed. Result={成功} Name={InProgressPresentation} Path={Dispatch.Widget.CommissionDispatch.InProgressPresentation}",
+    "[2026.10.29-03.26.46:426][608]LogAutomationController: Display: Test Completed. Result={成功} Name={ObservationScrollbarInteraction} Path={Dispatch.Widget.CommissionDispatch.ObservationScrollbarInteraction}",
+    "[2026.10.29-03.26.46:466][610]LogAutomationController: Display: Test Completed. Result={成功} Name={AssessmentPreviewIsolation} Path={Dispatch.Widget.Notebook.Association.AssessmentPreviewIsolation}",
+    "[2026.10.29-03.26.46:509][613]LogAutomationController: Display: Test Completed. Result={成功} Name={Entry} Path={Dispatch.Widget.Notebook.Association.Entry}",
+    "[2026.10.29-03.26.46:559][616]LogAutomationController: Display: Test Completed. Result={成功} Name={Instance} Path={Dispatch.Widget.Notebook.Association.Instance}",
+    "[2026.10.29-03.26.46:953][619]LogAutomationController: Display: Test Completed. Result={成功} Name={LiveRefresh} Path={Dispatch.Widget.Notebook.Association.LiveRefresh}",
+    "[2026.10.29-03.26.47:019][622]LogAutomationController: Display: Test Completed. Result={成功} Name={PreviewSuppliesAndReport} Path={Dispatch.Widget.Notebook.Association.PreviewSuppliesAndReport}",
+    "[2026.10.29-03.26.47:069][625]LogAutomationController: Display: Test Completed. Result={成功} Name={ReadSources} Path={Dispatch.Widget.Notebook.Association.ReadSources}",
+    "[2026.10.29-03.26.47:274][627]LogAutomationController: Display: Test Completed. Result={成功} Name={Widget} Path={Dispatch.Widget.Notebook.Association.Widget}",
+    "[2026.10.29-03.26.48:721][629]LogAutomationController: Display: Test Completed. Result={成功} Name={RenderSavedContent} Path={Dispatch.Widget.Notebook.AuthoredContent.RenderSavedContent}",
+    "[2026.10.29-03.26.48:755][631]LogAutomationController: Display: Test Completed. Result={成功} Name={ReviewedReport} Path={Dispatch.Widget.Notebook.AuthoredContent.ReviewedReport}",
+    "[2026.10.29-03.26.48:798][634]LogAutomationController: Display: Test Completed. Result={成功} Name={SixSavedDefinitions} Path={Dispatch.Widget.Notebook.AuthoredContent.SixSavedDefinitions}"
+  ],
+  "ReportRect": "Position(32,592), Size(618.4,223.6), Font17, DesiredHeight186.3"
+}

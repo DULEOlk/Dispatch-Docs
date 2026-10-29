@@ -1,5 +1,7 @@
 # Dispatch 游戏内文本索引
 
+本轮独立派遣预览（2026-10-29）：[九物品简介批次](batches/2026-10-29-dispatch-preview-reuse.json)仅复用用户现有内容和图，用于三个派遣选择的交付表；说明不回填记录本，不创建正式物品/剧情TextID。三份出发反应由用户后续原文补充，保存在同批次preview_reactions，仅供派遣模拟。当前目标及实现状态见[派遣预览当前确认](../ui/COMMISSION_NOTICE_UI.md#dispatch-preview-data-current)。
+
 更新日期：2026-09-16（Asia/Shanghai）。  
 性质：连接剧本创作稿、用户确认状态与正式 DataAsset 的唯一文本清单。
 
@@ -34,6 +36,16 @@
 上表第一行只用于格式示例，不属于正式剧情。创建第一项真实文本时可以删除该行，不能把它录入游戏资产。
 
 ## 2026-10-25 记录本六委托批次
+
+2026-10-29三条模拟补充：[本轮用户截图文本批次](batches/2026-10-29-notebook-three-preview.json)。维拉3物品、塞维林1见闻/3物品、罗兰3物品/全文报告（按语义两段）；物品说明仍为空；图片已按[用户13图清单](batches/2026-10-29-notebook-illustrations.json)接入模拟。仅编辑器隔离配置，不对应正式物品、线索解锁或Outcome写入。读取/渲染状态见[本轮交接](../handoffs/2026-10-29-notebook-three-preview-content.md)。
+
+| TextID | 内容 | 当前状态与位置 |
+|---|---|---|
+| TXT-COM-VERA-SUPPLIES | 旧路线抄图、麻绳、伤药 | 用户提供；模拟配置已填，12项验证通过，人工待复看 |
+| TXT-COM-SEVERIN-SUPPLIES | 旧税册摹页、便携墨瓶、边境草图地图 | 同上 |
+| TXT-COM-SEVERIN-OBS-ARCHIVE | 第1日 · 边署旧档 | 原文留存，现按用户要求两行摘要；现已接入用户旧档插图，不自行转为线索 |
+| TXT-COM-ROLAND-SUPPLIES | 替换木钉、旧路牌碎片、炭笔方向草记 | 用户提供；模拟配置已填，12项验证通过，人工待复看 |
+| TXT-RPT-ROLAND-ROADMARKERS-PREVIEW | 路标已重新固定……后续可与旧地图记录一并核查 | 用户提供全文，现合为两段；仅已完成模拟报告，正式Outcome未改 |
 
 本批仅接入现有开发预览资产；用户已明确授权写入范围。2026-10-26用户分别确认六主图/六卡图/六右下附图保存，Presentation.DetailImage关联CommissionMain，ListIcon关联CommissionCards，MapImage关联CommissionInsets。旧“NPC继续暂空”已过期：第4/5/6委托已分别关联维拉/塞维林/罗兰，前三条未关联；本轮来源测试重新通过。不自动视为完整多日剧情或奖励结算。
 

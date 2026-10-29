@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "见闻",
+    "index": 1,
+    "version": "v2",
+    "original": "见闻01_边境驿站.png",
+    "texture": "/Game/UI/Notebook/Observations/T_Observation_01_BorderStation.T_Observation_01_BorderStation",
+    "source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_01_BorderStation_v2.png",
+    "sha256": "a9b392e821179e1a7f512eb599d5766b4e2d7c2d6594b104e26a8d7763ff0291",
+    "previous_source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_01_BorderStation.png",
+    "backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+  },
+  {
+    "kind": "见闻",
+    "index": 2,
+    "version": "v2",
+    "original": "见闻02_岔路车辙.png",
+    "texture": "/Game/UI/Notebook/Observations/T_Observation_02_ForkTracks.T_Observation_02_ForkTracks",
+    "source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_02_ForkTracks_v2.png",
+    "sha256": "5cdf6b825b84554bb4aeef9b0da8ee1a0953dbcbb9b8310c4a86044db446db2a",
+    "previous_source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_02_ForkTracks.png",
+    "backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+  },
+  {
+    "kind": "见闻",
+    "index": 3,
+    "version": "v2",
+    "original": "见闻03_村镇传闻.png",
+    "texture": "/Game/UI/Notebook/Observations/T_Observation_03_VillageRumors.T_Observation_03_VillageRumors",
+    "source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_03_VillageRumors_v2.png",
+    "sha256": "873d805b8b33239e0f45fcee93f6572647a230843a5d467118a76544b15603bc",
+    "previous_source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_03_VillageRumors.png",
+    "backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+  },
+  {
+    "kind": "见闻",
+    "index": 4,
+    "version": "v2",
+    "original": "见闻04_边署旧档.png",
+    "texture": "/Game/UI/Notebook/Observations/T_Observation_04_ArchivedRegister.T_Observation_04_ArchivedRegister",
+    "source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_04_ArchivedRegister_v2.png",
+    "sha256": "c75c9e5e6411d528da0afc4330f264a1b62299d0318bb7b5879f1866b82ae533",
+    "previous_source": "Content\\UI\\Notebook\\Observations\\SourcePNG\\T_Observation_04_ArchivedRegister.png",
+    "backup": "AssetArchive\\NotebookObservations_20261029_before_v2"
+  }
+]
