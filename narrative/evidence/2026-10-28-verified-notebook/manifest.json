@@ -1,0 +1,164 @@
+{
+  "Date": "2026-10-28 Asia/Shanghai",
+  "HEAD": "1437c4b2eb5924a1c696a84885d4ecab35a87136",
+  "Branch": "main",
+  "Scope": "Development runtime: 11 targeted tests; DebugGame build only. Dirty worktree, no commits. User preview choices only; no formal assessment rules.",
+  "Evidence": [
+    {
+      "Source": "Saved/Logs/ContextCompactFinalBuild.log",
+      "Copy": "ContextCompactFinalBuild.log",
+      "SHA256": "5660A385C5BAE0FE9A07880AA8958D0B3D368A18D00E0F4EDC99766B0401317C"
+    },
+    {
+      "Source": "Saved/Logs/ContextCompactDebugBuild.log",
+      "Copy": "ContextCompactDebugBuild.log",
+      "SHA256": "E8795417F6E41E29E9927375630EB92C236CAD38349A8094CA3F45B0431B49CC"
+    },
+    {
+      "Source": "Saved/Logs/ContextCompactFinalVerify.log",
+      "Copy": "ContextCompactFinalVerify.log",
+      "SHA256": "F4F49E504846B39518717B42097DAE91C3913044EB158058D8A16C09A76C305D"
+    },
+    {
+      "Source": "Saved/Logs/ContextAuditCurrentVerify.log",
+      "Copy": "ContextAuditCurrentVerify.log",
+      "SHA256": "A0728ED9743389719B3BFCEEE12A84081E7909633A6D8E71B6720C3D369D0A82"
+    },
+    {
+      "Source": "Saved/Logs/ContextAssessmentRedVerify.log",
+      "Copy": "ContextAssessmentRedVerify.log",
+      "SHA256": "83C794673D9983C282E62C1228BD243FE912E61E18AF98BBA89AB83321D392B5"
+    },
+    {
+      "Source": "Saved/Logs/ContextAuditDocumentLinks.json",
+      "Copy": "ContextAuditDocumentLinks.json",
+      "SHA256": "9711F9B872153BEF8A2EE9CEC166E7CE59D62E88149C541E13C3FBF4ED54B94F"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/Dossier_VeraObservations_Compact.png",
+      "Copy": "Dossier_VeraObservations_Compact.png",
+      "SHA256": "102E6BD2482A624F6B9279D136739DE53145CA46E7075BBD8EC216073D032137"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/Dossier_Dev.NotebookPreview.05.png",
+      "Copy": "Dossier_Dev.NotebookPreview.05.png",
+      "SHA256": "B5AF7EA329014971E832335D4F23CC675A8926D84546F629F766974923BD7FEF"
+    },
+    {
+      "Source": "Saved/Automation/NotebookSixContent/Dossier_Dev.NotebookPreview.06.png",
+      "Copy": "Dossier_Dev.NotebookPreview.06.png",
+      "SHA256": "8E46C6ADCFD7B384EAF036DF291244AB5E81C3EBFD5591B4649F9604FD42927B"
+    }
+  ],
+  "InputFingerprints": [
+    {
+      "Path": "Source/Dispatch/Private/Widget/CommissionDispatchUIBase.cpp",
+      "SHA256": "1D9236911C6B4DA3769212A582A9AEB2D0906A7A51553B95F5ACE32E3BED551A"
+    },
+    {
+      "Path": "Source/Dispatch/Private/Widget/NotebookCommissionData.cpp",
+      "SHA256": "FE0C3F1D4467451B0F5BCC5D40AC427379E30EF019E52085A305489C08AF9072"
+    },
+    {
+      "Path": "Source/Dispatch/Public/Widget/NotebookCommissionData.h",
+      "SHA256": "386A6181806504A3A7C166A5352766E400FE5C9133D1D96518622C8E57DAC72B"
+    },
+    {
+      "Path": "Source/DispatchEditor/Public/StoryWorkspace/StoryNotebookPreviewData.h",
+      "SHA256": "2277370AF70237EB6FB9821635DB045A68F6EA54CD079C03DC1145687E5A71FE"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/StoryWorkspace/StoryUIPreviewRequest.cpp",
+      "SHA256": "337BD9EF91B86B964984D78ACF6CA1D276D113E1746428E9903112D7A3D85D17"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/Tests/NotebookAssociationTests.cpp",
+      "SHA256": "05A0F8A8F6B126C6023745820369F8C4221058B931008BE28E76C6BF5BE19BFA"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/Tests/NotebookAuthoredContentTests.cpp",
+      "SHA256": "BE54D75160B9B8FC8D6D4CBE92F979F169E870443095D40CE0902B60973BDF64"
+    },
+    {
+      "Path": "Source/DispatchEditor/Private/Tests/InProgressPresentationTests.cpp",
+      "SHA256": "F8F216B87F47F6A5E24C41938130B04C7F9668932440392744EADDCDEAD59DF0"
+    },
+    {
+      "Path": "Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini",
+      "SHA256": "68B907716F19D7C9F75A0C85BF61DC83D25DA5601F2271CA357479AF86EB3E2A"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-Dispatch.dll",
+      "SHA256": "730BCB6464184A995766868BD3CA305DEE870CBDF796A703C127628209A1075B"
+    },
+    {
+      "Path": "Binaries/Win64/UnrealEditor-DispatchEditor.dll",
+      "SHA256": "213FF5949D1E9896A233963B9E535BBCBFFFD1685B206E3DEE342893F211C0D3"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/NPC/DA_NPC_001_VeraKane.uasset",
+      "SHA256": "0380B98FB09EB19FC713B167363521148B1C79BD6D0B853146AF10A4B00E91DC"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/NPC/DA_NPC_002_SeverinMoore.uasset",
+      "SHA256": "8F7C7B55E546F69D94F55FA9C5C11C13A07D40774053655C92959372B526FE0F"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/NPC/DA_NPC_003_RolandGraeve.uasset",
+      "SHA256": "F73399B97350CF1CBD7076175E106662551324E7256181C925F07D3BDF681460"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/Commissions/DA_NBP_01_MissingForester.uasset",
+      "SHA256": "70E0BA640D5E6CBFAF7461C72698FD3AB0FF4BF62EE8A1F58B5274DB201D1FBC"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/Commissions/DA_NBP_02_WellBell.uasset",
+      "SHA256": "D1147221D00F477608A1193217CBF6F33E409DAAD1A7419B1D562EEA4B9D0168"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/Commissions/DA_NBP_03_EmptyCrates.uasset",
+      "SHA256": "72EB5B1FA9D5DD48954A8F5B20C6438313B5DDD9BB6E031C24C636E1A8831681"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/Commissions/DA_NBP_04_MedicineEscort.uasset",
+      "SHA256": "9E989F26E952868183357948A6D958F40A3FACA43065BE3587A9DFA74C2A0C73"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/Commissions/DA_NBP_05_MissingVillagers.uasset",
+      "SHA256": "869EFD41CCBA5859B228505AF16B3AD440EE57185026F8A234D07D0554C3D4C7"
+    },
+    {
+      "Path": "Content/Developers/NotebookPreview/Commissions/DA_NBP_06_RoadMarkers.uasset",
+      "SHA256": "F13E9546BE2569E9D543AA55350E2A63DC5CEBF4245ACBAD27E06253ED3FB02F"
+    },
+    {
+      "Path": "Content/BluePrints/Widget/Menu/Quest/DispatchPages/WBP_DispatchPage_Completed.uasset",
+      "SHA256": "509E241B7465B8627C8FB543C0D3F9D39BEA1583BEB011E4827511530F8FD3C9"
+    },
+    {
+      "Path": "Content/BluePrints/Widget/Menu/Quest/DispatchPages/WBP_DispatchPage_InProgress.uasset",
+      "SHA256": "4B24B92372A06895070AA932AF10362A86627FC374A7F8C30F753B1DA6147A8D"
+    },
+    {
+      "Path": "Content/BluePrints/Widget/Menu/Quest/DispatchPages/WBP_DispatchPage_Preparation.uasset",
+      "SHA256": "DAA435571F20D85BD0D8EA1BC6D03A9E8AE5A0A463972E2A1BA9714E03DF8865"
+    },
+    {
+      "Path": "Content/BluePrints/Widget/Menu/Quest/DispatchPages/WBP_RelatedObservationRow.uasset",
+      "SHA256": "59B8DCD2CEC7BA325C1560E1A10785CE75D2E181D0C6A56D9157DBE2746A9946"
+    }
+  ],
+  "CompletedTests": [
+    "[2026.10.28-15.19.35:498][606]LogAutomationController: Display: Test Completed. Result={成功} Name={InProgressPresentation} Path={Dispatch.Widget.CommissionDispatch.InProgressPresentation}",
+    "[2026.10.28-15.19.35:684][609]LogAutomationController: Display: Test Completed. Result={成功} Name={ObservationScrollbarInteraction} Path={Dispatch.Widget.CommissionDispatch.ObservationScrollbarInteraction}",
+    "[2026.10.28-15.19.35:721][611]LogAutomationController: Display: Test Completed. Result={成功} Name={AssessmentPreviewIsolation} Path={Dispatch.Widget.Notebook.Association.AssessmentPreviewIsolation}",
+    "[2026.10.28-15.19.35:767][614]LogAutomationController: Display: Test Completed. Result={成功} Name={Entry} Path={Dispatch.Widget.Notebook.Association.Entry}",
+    "[2026.10.28-15.19.35:817][617]LogAutomationController: Display: Test Completed. Result={成功} Name={Instance} Path={Dispatch.Widget.Notebook.Association.Instance}",
+    "[2026.10.28-15.19.36:230][620]LogAutomationController: Display: Test Completed. Result={成功} Name={LiveRefresh} Path={Dispatch.Widget.Notebook.Association.LiveRefresh}",
+    "[2026.10.28-15.19.36:291][622]LogAutomationController: Display: Test Completed. Result={成功} Name={ReadSources} Path={Dispatch.Widget.Notebook.Association.ReadSources}",
+    "[2026.10.28-15.19.36:515][625]LogAutomationController: Display: Test Completed. Result={成功} Name={Widget} Path={Dispatch.Widget.Notebook.Association.Widget}",
+    "[2026.10.28-15.19.37:952][627]LogAutomationController: Display: Test Completed. Result={成功} Name={RenderSavedContent} Path={Dispatch.Widget.Notebook.AuthoredContent.RenderSavedContent}",
+    "[2026.10.28-15.19.37:984][629]LogAutomationController: Display: Test Completed. Result={成功} Name={ReviewedReport} Path={Dispatch.Widget.Notebook.AuthoredContent.ReviewedReport}",
+    "[2026.10.28-15.19.38:028][632]LogAutomationController: Display: Test Completed. Result={成功} Name={SixSavedDefinitions} Path={Dispatch.Widget.Notebook.AuthoredContent.SixSavedDefinitions}"
+  ]
+}

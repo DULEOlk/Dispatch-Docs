@@ -1,0 +1,587 @@
+{
+  "recorded": "2026-09-09",
+  "timezone": "Asia/Shanghai",
+  "note": "Historical verification in this task; no new game tests run during documentation consolidation.",
+  "groups": [
+    {
+      "log": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Saved\\Logs\\Narrative-Resume-Baseline.log",
+      "sha256": "88CFCCFF8B96DFF4B201468D63CC328329ED1A268E5189187864268A2ABC9D3D",
+      "total": 30,
+      "passed": 29,
+      "failed": 1,
+      "finalMarker": "-1",
+      "tests": [
+        {
+          "result": "失败",
+          "name": "Binding",
+          "path": "Dispatch.Narrative.ActionExecutor.Binding"
+        },
+        {
+          "result": "成功",
+          "name": "LetterCompletion",
+          "path": "Dispatch.Narrative.ActionExecutor.LetterCompletion"
+        },
+        {
+          "result": "成功",
+          "name": "WritingFailure",
+          "path": "Dispatch.Narrative.ActionExecutor.WritingFailure"
+        },
+        {
+          "result": "成功",
+          "name": "Authoring",
+          "path": "Dispatch.Narrative.Contract.Authoring"
+        },
+        {
+          "result": "成功",
+          "name": "Catalog",
+          "path": "Dispatch.Narrative.Contract.Catalog"
+        },
+        {
+          "result": "成功",
+          "name": "Values",
+          "path": "Dispatch.Narrative.Contract.Values"
+        },
+        {
+          "result": "成功",
+          "name": "CampaignQueries",
+          "path": "Dispatch.Narrative.Definitions.CampaignQueries"
+        },
+        {
+          "result": "成功",
+          "name": "CampaignReferenceValidation",
+          "path": "Dispatch.Narrative.Definitions.CampaignReferenceValidation"
+        },
+        {
+          "result": "成功",
+          "name": "GraphValidation",
+          "path": "Dispatch.Narrative.Definitions.GraphValidation"
+        },
+        {
+          "result": "成功",
+          "name": "Queries",
+          "path": "Dispatch.Narrative.Definitions.Queries"
+        },
+        {
+          "result": "成功",
+          "name": "ReferenceValidation",
+          "path": "Dispatch.Narrative.Definitions.ReferenceValidation"
+        },
+        {
+          "result": "成功",
+          "name": "RecordEvent",
+          "path": "Dispatch.Narrative.Facts.RecordEvent"
+        },
+        {
+          "result": "成功",
+          "name": "RecordFact",
+          "path": "Dispatch.Narrative.Facts.RecordFact"
+        },
+        {
+          "result": "成功",
+          "name": "RestoreHistory",
+          "path": "Dispatch.Narrative.Facts.RestoreHistory"
+        },
+        {
+          "result": "成功",
+          "name": "Clue",
+          "path": "Dispatch.Narrative.GameplayBridge.Clue"
+        },
+        {
+          "result": "成功",
+          "name": "Commission",
+          "path": "Dispatch.Narrative.GameplayBridge.Commission"
+        },
+        {
+          "result": "成功",
+          "name": "WritingInferenceDialogue",
+          "path": "Dispatch.Narrative.GameplayBridge.WritingInferenceDialogue"
+        },
+        {
+          "result": "成功",
+          "name": "LegacyApis",
+          "path": "Dispatch.Narrative.Migration.LegacyApis"
+        },
+        {
+          "result": "成功",
+          "name": "Alternatives",
+          "path": "Dispatch.Narrative.Rules.Alternatives"
+        },
+        {
+          "result": "成功",
+          "name": "Conditions",
+          "path": "Dispatch.Narrative.Rules.Conditions"
+        },
+        {
+          "result": "成功",
+          "name": "Effects",
+          "path": "Dispatch.Narrative.Rules.Effects"
+        },
+        {
+          "result": "成功",
+          "name": "Transitions",
+          "path": "Dispatch.Narrative.Rules.Transitions"
+        },
+        {
+          "result": "成功",
+          "name": "Async",
+          "path": "Dispatch.Narrative.Runtime.Async"
+        },
+        {
+          "result": "成功",
+          "name": "EpisodeExitChronology",
+          "path": "Dispatch.Narrative.Runtime.EpisodeExitChronology"
+        },
+        {
+          "result": "成功",
+          "name": "RestoreCompletedEpisode",
+          "path": "Dispatch.Narrative.Runtime.RestoreCompletedEpisode"
+        },
+        {
+          "result": "成功",
+          "name": "Synchronous",
+          "path": "Dispatch.Narrative.Runtime.Synchronous"
+        },
+        {
+          "result": "成功",
+          "name": "Runtime",
+          "path": "Dispatch.Narrative.Triggers.Runtime"
+        },
+        {
+          "result": "成功",
+          "name": "Day01",
+          "path": "Dispatch.Narrative.Day01"
+        },
+        {
+          "result": "成功",
+          "name": "InferenceUnlocked",
+          "path": "Dispatch.Story.Sources.InferenceUnlocked"
+        },
+        {
+          "result": "成功",
+          "name": "WritingCommitted",
+          "path": "Dispatch.Story.Sources.WritingCommitted"
+        }
+      ]
+    },
+    {
+      "log": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Saved\\Logs\\Narrative-Resume-Regression.log",
+      "sha256": "503680478F265C04E32DDFC5F245EE6CA33E8C518C025652649BD835C09F9456",
+      "total": 56,
+      "passed": 56,
+      "failed": 0,
+      "finalMarker": "0",
+      "tests": [
+        {
+          "result": "成功",
+          "name": "Resolution",
+          "path": "Dispatch.Clue.Catalog.Resolution"
+        },
+        {
+          "result": "成功",
+          "name": "CommissionCondition",
+          "path": "Dispatch.Clue.Lead.CommissionCondition"
+        },
+        {
+          "result": "成功",
+          "name": "DialogueEffect",
+          "path": "Dispatch.Clue.Lead.DialogueEffect"
+        },
+        {
+          "result": "成功",
+          "name": "ProvenanceAndPair",
+          "path": "Dispatch.Clue.Lead.ProvenanceAndPair"
+        },
+        {
+          "result": "成功",
+          "name": "NoticeBoard",
+          "path": "Dispatch.Commission.DataAsset.NoticeBoard"
+        },
+        {
+          "result": "成功",
+          "name": "Validation",
+          "path": "Dispatch.Commission.DataAsset.Validation"
+        },
+        {
+          "result": "成功",
+          "name": "QuestLink",
+          "path": "Dispatch.Commission.Definition.QuestLink"
+        },
+        {
+          "result": "成功",
+          "name": "Validation",
+          "path": "Dispatch.Commission.Definition.Validation"
+        },
+        {
+          "result": "成功",
+          "name": "NPCAndWorld",
+          "path": "Dispatch.Commission.Evaluator.NPCAndWorld"
+        },
+        {
+          "result": "成功",
+          "name": "Preparations",
+          "path": "Dispatch.Commission.Evaluator.Preparations"
+        },
+        {
+          "result": "成功",
+          "name": "PriorityAndAmbiguity",
+          "path": "Dispatch.Commission.Evaluator.PriorityAndAmbiguity"
+        },
+        {
+          "result": "成功",
+          "name": "DefinitionAndDraft",
+          "path": "Dispatch.Commission.Subsystem.DefinitionAndDraft"
+        },
+        {
+          "result": "成功",
+          "name": "DispatchAndLock",
+          "path": "Dispatch.Commission.Subsystem.DispatchAndLock"
+        },
+        {
+          "result": "成功",
+          "name": "ExternalValidation",
+          "path": "Dispatch.Commission.Subsystem.ExternalValidation"
+        },
+        {
+          "result": "成功",
+          "name": "Settlement",
+          "path": "Dispatch.Commission.Subsystem.Settlement"
+        },
+        {
+          "result": "成功",
+          "name": "SettlementFailureSafety",
+          "path": "Dispatch.Commission.Subsystem.SettlementFailureSafety"
+        },
+        {
+          "result": "成功",
+          "name": "OpenOption",
+          "path": "Dispatch.Dialogue.Commission.OpenOption"
+        },
+        {
+          "result": "成功",
+          "name": "Validation",
+          "path": "Dispatch.Dialogue.Definition.Validation"
+        },
+        {
+          "result": "成功",
+          "name": "FailureDoesNotBroadcastCompletion",
+          "path": "Dispatch.Dialogue.Effects.FailureDoesNotBroadcastCompletion"
+        },
+        {
+          "result": "成功",
+          "name": "NamedResult",
+          "path": "Dispatch.Dialogue.Effects.NamedResult"
+        },
+        {
+          "result": "成功",
+          "name": "PlayerClosePolicy",
+          "path": "Dispatch.Dialogue.Interaction.PlayerClosePolicy"
+        },
+        {
+          "result": "成功",
+          "name": "SessionLifecycle",
+          "path": "Dispatch.Dialogue.Interaction.SessionLifecycle"
+        },
+        {
+          "result": "成功",
+          "name": "Api",
+          "path": "Dispatch.Dialogue.Sub.Api"
+        },
+        {
+          "result": "成功",
+          "name": "Conditions",
+          "path": "Dispatch.Dialogue.Sub.Conditions"
+        },
+        {
+          "result": "成功",
+          "name": "Traversal",
+          "path": "Dispatch.Dialogue.Sub.Traversal"
+        },
+        {
+          "result": "成功",
+          "name": "Structure",
+          "path": "Dispatch.Dialogue.Types.Structure"
+        },
+        {
+          "result": "成功",
+          "name": "PresentationContract",
+          "path": "Dispatch.Dialogue.UI.PresentationContract"
+        },
+        {
+          "result": "成功",
+          "name": "NPCContext",
+          "path": "Dispatch.Dialogue.NPCContext"
+        },
+        {
+          "result": "成功",
+          "name": "Collection",
+          "path": "Dispatch.Quest.Clue.Collection"
+        },
+        {
+          "result": "成功",
+          "name": "MissingTable",
+          "path": "Dispatch.Quest.Clue.MissingTable"
+        },
+        {
+          "result": "成功",
+          "name": "Responsibility",
+          "path": "Dispatch.Story.DeliverLetter.Responsibility"
+        },
+        {
+          "result": "成功",
+          "name": "Api",
+          "path": "Dispatch.Story.Flow.StateTree.Api"
+        },
+        {
+          "result": "成功",
+          "name": "NPCSceneTask",
+          "path": "Dispatch.Story.Flow.NPCSceneTask"
+        },
+        {
+          "result": "成功",
+          "name": "BodyFormatting",
+          "path": "Dispatch.UI.LetterWidget.BodyFormatting"
+        },
+        {
+          "result": "成功",
+          "name": "Initialization",
+          "path": "Dispatch.UI.LetterWidget.Initialization"
+        },
+        {
+          "result": "成功",
+          "name": "MailboxClose",
+          "path": "Dispatch.UI.LetterWidget.MailboxClose"
+        },
+        {
+          "result": "成功",
+          "name": "ReturnToNotebookInputMode",
+          "path": "Dispatch.UI.LetterWidget.ReturnToNotebookInputMode"
+        },
+        {
+          "result": "成功",
+          "name": "FailureDismiss",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.Feedback.FailureDismiss"
+        },
+        {
+          "result": "成功",
+          "name": "InferenceDismiss",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.Feedback.InferenceDismiss"
+        },
+        {
+          "result": "成功",
+          "name": "SplitBindings",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.Feedback.SplitBindings"
+        },
+        {
+          "result": "成功",
+          "name": "TimedLifecycle",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.Feedback.TimedLifecycle"
+        },
+        {
+          "result": "成功",
+          "name": "BackgroundClickCancellation",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.Selection.BackgroundClickCancellation"
+        },
+        {
+          "result": "成功",
+          "name": "Combination",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.SimpleTest.Combination"
+        },
+        {
+          "result": "成功",
+          "name": "IndependentClue",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.SimpleTest.IndependentClue"
+        },
+        {
+          "result": "成功",
+          "name": "Seed",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.SimpleTest.Seed"
+        },
+        {
+          "result": "成功",
+          "name": "DayFiltering",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.DayFiltering"
+        },
+        {
+          "result": "成功",
+          "name": "FormalAssets",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.FormalAssets"
+        },
+        {
+          "result": "成功",
+          "name": "FormalDaySimpleTestCollision",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.FormalDaySimpleTestCollision"
+        },
+        {
+          "result": "成功",
+          "name": "InteractionLock",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.InteractionLock"
+        },
+        {
+          "result": "成功",
+          "name": "PairSuccessAndIdempotence",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.PairSuccessAndIdempotence"
+        },
+        {
+          "result": "成功",
+          "name": "PairValidation",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.PairValidation"
+        },
+        {
+          "result": "成功",
+          "name": "RecordItemState",
+          "path": "Dispatch.Widget.PlayerNotebook.CluePage.RecordItemState"
+        },
+        {
+          "result": "成功",
+          "name": "SubmissionGate",
+          "path": "Dispatch.Writing.DayFlow.SubmissionGate"
+        },
+        {
+          "result": "成功",
+          "name": "Lifecycle",
+          "path": "Dispatch.Writing.Runtime.Lifecycle"
+        },
+        {
+          "result": "成功",
+          "name": "DirectDayDefinition",
+          "path": "Dispatch.Writing.StateTree.DirectDayDefinition"
+        },
+        {
+          "result": "成功",
+          "name": "Validation",
+          "path": "Dispatch.Writing.Template.Validation"
+        }
+      ]
+    },
+    {
+      "log": "F:\\Epic Games\\Unreal Projects\\Dispatch\\Saved\\Logs\\Narrative-Resume-DirectorScene.log",
+      "sha256": "883DB728869C9BA02ED35F49AFF9F29654652307D9B53AAB7A4D724DAF458949",
+      "total": 24,
+      "passed": 24,
+      "failed": 0,
+      "finalMarker": "0",
+      "tests": [
+        {
+          "result": "成功",
+          "name": "DialogueOrchestration",
+          "path": "Dispatch.NPC.Scene.DialogueOrchestration"
+        },
+        {
+          "result": "成功",
+          "name": "EntryDialogueVision",
+          "path": "Dispatch.NPC.Scene.EntryDialogueVision"
+        },
+        {
+          "result": "成功",
+          "name": "InteractionDialogue",
+          "path": "Dispatch.NPC.Scene.InteractionDialogue"
+        },
+        {
+          "result": "成功",
+          "name": "MoveResult",
+          "path": "Dispatch.NPC.Scene.MoveResult"
+        },
+        {
+          "result": "成功",
+          "name": "TeleportAndExit",
+          "path": "Dispatch.NPC.Scene.TeleportAndExit"
+        },
+        {
+          "result": "成功",
+          "name": "Types",
+          "path": "Dispatch.NPC.Scene.Types"
+        },
+        {
+          "result": "成功",
+          "name": "Validation",
+          "path": "Dispatch.NPC.Scene.Validation"
+        },
+        {
+          "result": "成功",
+          "name": "ApiAndRouting",
+          "path": "Dispatch.Story.Debug.Director.ApiAndRouting"
+        },
+        {
+          "result": "成功",
+          "name": "AppliesFreshWorldState",
+          "path": "Dispatch.Story.Debug.Preset.AppliesFreshWorldState"
+        },
+        {
+          "result": "成功",
+          "name": "SchemaAndDefaults",
+          "path": "Dispatch.Story.Debug.Preset.SchemaAndDefaults"
+        },
+        {
+          "result": "成功",
+          "name": "Lifecycle",
+          "path": "Dispatch.Story.Director.Lifecycle"
+        },
+        {
+          "result": "成功",
+          "name": "ReusableAndRejected",
+          "path": "Dispatch.Story.Director.ReusableAndRejected"
+        },
+        {
+          "result": "成功",
+          "name": "Validation",
+          "path": "Dispatch.Story.Director.Validation"
+        },
+        {
+          "result": "成功",
+          "name": "Api",
+          "path": "Dispatch.Story.HUDMessage.Component.Api"
+        },
+        {
+          "result": "成功",
+          "name": "IndependentChannels",
+          "path": "Dispatch.Story.HUDMessage.Component.IndependentChannels"
+        },
+        {
+          "result": "成功",
+          "name": "Queue",
+          "path": "Dispatch.Story.HUDMessage.Component.Queue"
+        },
+        {
+          "result": "成功",
+          "name": "Api",
+          "path": "Dispatch.Story.HUDMessage.StateTree.Api"
+        },
+        {
+          "result": "成功",
+          "name": "Api",
+          "path": "Dispatch.Story.HUDMessage.Widget.Api"
+        },
+        {
+          "result": "成功",
+          "name": "Behavior",
+          "path": "Dispatch.Story.HUDMessage.Widget.Behavior"
+        },
+        {
+          "result": "成功",
+          "name": "ObjectivePersistence",
+          "path": "Dispatch.Story.HUDStatus.ObjectivePersistence"
+        },
+        {
+          "result": "成功",
+          "name": "StateTreeApi",
+          "path": "Dispatch.Story.HUDStatus.StateTreeApi"
+        },
+        {
+          "result": "成功",
+          "name": "Definition",
+          "path": "Dispatch.Story.Objective.Definition"
+        },
+        {
+          "result": "成功",
+          "name": "Director",
+          "path": "Dispatch.Story.Objective.Director"
+        },
+        {
+          "result": "成功",
+          "name": "StateTreeApi",
+          "path": "Dispatch.Story.Objective.StateTreeApi"
+        }
+      ]
+    }
+  ]
+}

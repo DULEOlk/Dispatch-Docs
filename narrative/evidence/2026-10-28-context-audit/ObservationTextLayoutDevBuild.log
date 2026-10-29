@@ -1,0 +1,106 @@
+Using bundled DotNet SDK version: 8.0.300 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" DispatchEditor Win64 Development "-Project=F:/Epic Games/Unreal Projects/Dispatch/Dispatch.uproject" -WaitMutex -NoUBA "-Log=F:/Epic Games/Unreal Projects/Dispatch/Saved/Logs/ObservationTextLayoutDevUBT.log"
+Log file: F:\Epic Games\Unreal Projects\Dispatch\Saved\Logs\ObservationTextLayoutDevUBT.log
+Using 'git status' to determine working set for adaptive non-unity build (F:\Epic Games\Unreal Projects\Dispatch).
+Creating makefile for DispatchEditor (command line arguments changed)
+Building DispatchEditor...
+Using Visual Studio 2022 14.38.33144 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Upgrade]
+[Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;' in DispatchEditor.Target.cs.
+[Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[Upgrade]
+[Adaptive Build] Excluded from Dispatch unity file: CommissionDefinition.cpp, NPCInfoComponent.cpp, NoticeBoard.cpp, NPCDefinition.cpp, ClueLeadTests.cpp, CommissionDataAssetTests.cpp, NPCDefinitionTests.cpp, NPCInfoComponentTests.cpp, StoryContentDefinitionTests.cpp, CommissionDispatchPageBase.cpp, CommissionDispatchUIBase.cpp, NotebookCommissionData.cpp, NotebookCommissionRecords.cpp, ObservationRichTextBlock.cpp, PlayerNotebookWidget.cpp, PreparationSelectionWidgetBase.cpp, PreparationSlotWidgetBase.cpp, QuestListItemWidget.cpp, RelatedObservationRowBase.cpp
+[Adaptive Build] Excluded from DispatchEditor unity file: CommissionCardEffectsCommandlet.cpp, CommissionDispatchPagesSetup.cpp, CompletedPageLayoutSetup.cpp, DecoratedDispatchReview.cpp, DispatchDataWidgetCleanup.cpp, DispatchInProgressLayoutSetup.cpp, DispatchReferenceAssets.cpp, DispatchStampSetup.cpp, InProgressBindingSetup.cpp, LegacyQuestArtMigration.cpp, NotebookAwaitingReportSetup.cpp, NotebookMetaFieldsSetup.cpp, NotebookNPCAssociationAuthor.cpp, NotebookOrnamentsSetup.cpp, NotebookPreviewExamplesCommandlet.cpp, NotebookReadingSpaceSetup.cpp, NPCPortraitScaleSetup.cpp, ObservationScrollbarSetup.cpp, PreparationPrintedCardAuthor.cpp, PreparationRemoveButtonSetup.cpp, RelatedObservationRowSetup.cpp, VerticalInkLayerFix.cpp, SStoryValidationPreview.cpp, StoryUIPreviewCoordinator.cpp, StoryUIPreviewRequest.cpp, CommissionDeskPanTests.cpp, CommissionDispatchPageTests.cpp, InProgressPresentationTests.cpp, NotebookAssociationTests.cpp, NotebookAuthoredContentTests.cpp, NotebookAwaitingReportTests.cpp, NotebookDispatchEntryTests.cpp, NotebookMetaFieldsTests.cpp, NotebookQuestListRenderTests.cpp, ObservationScrollbarTests.cpp, PreparationDividerVisibilityTests.cpp, PreparationInteractionRegressionTests.cpp, PreparationSlotWidgetTests.cpp, StoryCommissionAssetPreviewTests.cpp, StoryNotebookPreviewTests.cpp, StoryWorkspaceEditorTests.cpp
+Determining max actions to execute in parallel (8 physical cores, 12 logical cores)
+  Executing up to 8 processes, one per physical core
+  Requested 1.5 GB memory per action, 5.66 GB available: limiting max parallel actions to 3
+Using Parallel executor to run 80 action(s)
+------ Building 80 action(s) started ------
+[1/80] Compile [x64] CommissionDefinition.cpp
+[2/80] Compile [x64] ClueLeadTests.cpp
+[3/80] Compile [x64] CommissionDataAssetTests.cpp
+[4/80] Compile [x64] CommissionDispatchPageBase.cpp
+[5/80] Compile [x64] CommissionDispatchUIBase.cpp
+[6/80] Compile [x64] Module.Dispatch.11.cpp
+[7/80] Compile [x64] Module.Dispatch.12.cpp
+[8/80] Compile [x64] Module.Dispatch.14.cpp
+[9/80] Compile [x64] Module.Dispatch.13.cpp
+[10/80] Compile [x64] Module.Dispatch.2.cpp
+[11/80] Compile [x64] Module.Dispatch.16.cpp
+[12/80] Compile [x64] Module.Dispatch.3.cpp
+[13/80] Compile [x64] Module.Dispatch.15.cpp
+[14/80] Compile [x64] Module.Dispatch.4.cpp
+[15/80] Compile [x64] Module.Dispatch.6.cpp
+[16/80] Compile [x64] Module.Dispatch.7.cpp
+[17/80] Compile [x64] NPCDefinition.cpp
+[18/80] Compile [x64] NPCDefinitionTests.cpp
+[19/80] Compile [x64] NPCInfoComponent.cpp
+[20/80] Compile [x64] Module.Dispatch.8.cpp
+[21/80] Compile [x64] NPCInfoComponentTests.cpp
+[22/80] Compile [x64] NotebookCommissionData.cpp
+[23/80] Compile [x64] NoticeBoard.cpp
+[24/80] Compile [x64] NotebookCommissionRecords.cpp
+[25/80] Compile [x64] PreparationSelectionWidgetBase.cpp
+[26/80] Compile [x64] PreparationSlotWidgetBase.cpp
+[27/80] Compile [x64] PlayerNotebookWidget.cpp
+[28/80] Compile [x64] StoryContentDefinitionTests.cpp
+[29/80] Compile [x64] RelatedObservationRowBase.cpp
+[30/80] Link [x64] UnrealEditor-Dispatch.lib
+  ���ڴ����� F:/Epic Games/Unreal Projects/Dispatch/Intermediate/Build/Win64/x64/UnrealEditor/Development/Dispatch/UnrealEditor-Dispatch.lib �Ͷ��� F:/Epic Games/Unreal Projects/Dispatch/Intermediate/Build/Win64/x64/UnrealEditor/Development/Dispatch/UnrealEditor-Dispatch.exp
+[31/80] Link [x64] UnrealEditor-Dispatch.dll
+[32/80] Compile [x64] CommissionDeskPanTests.cpp
+[33/80] Compile [x64] CommissionDispatchBlueprintSetup.cpp
+[34/80] Compile [x64] CommissionDispatchPageTests.cpp
+[35/80] Compile [x64] CommissionDispatchPagesSetup.cpp
+[36/80] Compile [x64] CompletedPageLayoutSetup.cpp
+[37/80] Compile [x64] DecoratedDispatchReview.cpp
+[38/80] Compile [x64] InProgressPresentationTests.cpp
+[39/80] Compile [x64] LegacyQuestArtMigration.cpp
+[40/80] Compile [x64] Module.DispatchEditor.gen.cpp
+[41/80] Compile [x64] NotebookAssociationTests.cpp
+[42/80] Compile [x64] NotebookAuthoredContentTests.cpp
+[43/80] Compile [x64] NotebookAwaitingReportTests.cpp
+[44/80] Compile [x64] NotebookDispatchEntryTests.cpp
+[45/80] Compile [x64] NotebookFilterRenderTests.cpp
+[46/80] Compile [x64] NotebookMetaFieldsTests.cpp
+[47/80] Compile [x64] CommissionDeskPanCommandlet.cpp
+[48/80] Compile [x64] NotebookNPCAssociationAuthor.cpp
+[49/80] Compile [x64] NotebookPreviewExamplesCommandlet.cpp
+[50/80] Compile [x64] ObservationScrollbarTests.cpp
+[51/80] Compile [x64] NotebookQuestListRenderTests.cpp
+[52/80] Compile [x64] PreparationDividerVisibilityTests.cpp
+[53/80] Compile [x64] PreparationInteractionRegressionTests.cpp
+[54/80] Compile [x64] PreparationSlotWidgetTests.cpp
+[55/80] Compile [x64] RelatedObservationRowSetup.cpp
+[56/80] Compile [x64] SStoryContentLibrary.cpp
+[57/80] Compile [x64] SStoryValidationPreview.cpp
+[58/80] Compile [x64] StoryActionExecutorPIETests.cpp
+[59/80] Compile [x64] StoryCommissionPreviewData.cpp
+[60/80] Compile [x64] StoryCommissionAssetPreviewTests.cpp
+[61/80] Compile [x64] StoryCommissionPreviewDataTests.cpp
+[62/80] Compile [x64] StoryCommissionPreviewSession.cpp
+[63/80] Compile [x64] StoryContentCatalogEditorService.cpp
+[64/80] Compile [x64] StoryContentCatalogEditorServiceTests.cpp
+[65/80] Compile [x64] StoryFoundationSampleBuilder.cpp
+[66/80] Compile [x64] StoryFoundationSampleBuilderTests.cpp
+[67/80] Compile [x64] StoryLegacyMigrationReportTests.cpp
+[68/80] Compile [x64] StoryLegacyMigrationReport.cpp
+[69/80] Compile [x64] NotebookFilterButtonsCommandlet.cpp
+[70/80] Compile [x64] StoryNotebookPreviewTests.cpp
+[71/80] Compile [x64] StoryUIPreviewCoordinator.cpp
+[72/80] Compile [x64] StoryUIPreviewRequest.cpp
+[73/80] Compile [x64] StoryUIPreviewCoordinatorTests.cpp
+[74/80] Compile [x64] StoryUIPreviewRequestTests.cpp
+[75/80] Compile [x64] StoryWorkspaceEditor.cpp
+[76/80] Compile [x64] StoryWorkspaceEditorSurface.cpp
+[77/80] Compile [x64] StoryWorkspaceEditorTests.cpp
+[78/80] Link [x64] UnrealEditor-DispatchEditor.lib
+  ���ڴ����� F:/Epic Games/Unreal Projects/Dispatch/Intermediate/Build/Win64/x64/UnrealEditor/Development/DispatchEditor/UnrealEditor-DispatchEditor.lib �Ͷ��� F:/Epic Games/Unreal Projects/Dispatch/Intermediate/Build/Win64/x64/UnrealEditor/Development/DispatchEditor/UnrealEditor-DispatchEditor.exp
+[79/80] Link [x64] UnrealEditor-DispatchEditor.dll
+[80/80] WriteMetadata DispatchEditor.target
+Total time in Parallel executor: 158.26 seconds
+
+Result: Succeeded
+Total execution time: 161.87 seconds
