@@ -11,3 +11,6 @@
 文档中的项目源码、Content资产及Saved工作输出仍属于外层项目，独立克隆本库不会产生这些文件。已留存的关键图片/日志位于narrative/evidence；旧链接仅作为来源线索，不能误报完整项目已备份。
 
 首次提交显式包含全部现有文件；本仓库关闭自动换行转换，保留文件原始内容。只在本机保存满足当前范围，发布远端属于后续独立操作。
+
+## 2026-10-29 游戏仓库分叉处理
+游戏仓库先以c443874f本地保存当前成果，随后fetch确认origin/main仍为6a879c2a；远端20项git cherry均为等价改动。创建codex/backup-before-history-sync-20261029与codex/backup-origin-before-history-sync-20261029备份分支，再以ours策略合并旧远端历史，提交24646d04。合并前后HEAD tree完全相同，工作区干净，origin/main已是本地main祖先；状态从领先93/落后20改为领先94/落后0。未推送、未改写远端，不需要因此重编译或重测游戏。领先94仅表示未上传的本地历史。此次处理属于游戏仓库，与docs独立仓库无关。详细本机核对记录Saved/Codex/GitHistorySync20261029.txt。
